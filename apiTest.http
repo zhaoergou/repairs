@@ -1,0 +1,12 @@
+###
+POST http://localhost:8080/user/
+Content-Type: application/json
+
+{
+  "id": 19,
+  "name": "马顺超"
+}
+
+###
+GET http://localhost:8080/user/?current=30&size=1
+
